@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_9x2joC_PEee7I5Xv6_aH9Q" name="86">
+  <eAnnotations xmi:id="_9x3KsC_PEee7I5Xv6_aH9Q" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_9x3KsS_PEee7I5Xv6_aH9Q" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_9x3Ksi_PEee7I5Xv6_aH9Q" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9x3Ksy_PEee7I5Xv6_aH9Q" name="Principal">
+    <ownedAttribute xmi:id="_9x3KtC_PEee7I5Xv6_aH9Q" name="yardas" visibility="public" type="_9x3KzC_PEee7I5Xv6_aH9Q" association="_9x3Kvi_PEee7I5Xv6_aH9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9x3KtS_PEee7I5Xv6_aH9Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9x3Kti_PEee7I5Xv6_aH9Q" name="pie" visibility="public" type="_9x3K3i_PEee7I5Xv6_aH9Q" association="_9x3KwS_PEee7I5Xv6_aH9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9x3Kty_PEee7I5Xv6_aH9Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9x3KuC_PEee7I5Xv6_aH9Q" name="cm" visibility="public" type="_9x3K5y_PEee7I5Xv6_aH9Q" association="_9x3KxC_PEee7I5Xv6_aH9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9x3KuS_PEee7I5Xv6_aH9Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9x3Kui_PEee7I5Xv6_aH9Q" name="pulgadas" visibility="public" type="_9x3K1S_PEee7I5Xv6_aH9Q" association="_9x3Kxy_PEee7I5Xv6_aH9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9x3Kuy_PEee7I5Xv6_aH9Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9x3KvC_PEee7I5Xv6_aH9Q" name="menu" visibility="public" type="_9x3K8C_PEee7I5Xv6_aH9Q" association="_9x3Kyi_PEee7I5Xv6_aH9Q"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3KvS_PEee7I5Xv6_aH9Q" name="Int num" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9x3Kvi_PEee7I5Xv6_aH9Q" memberEnd="_9x3KtC_PEee7I5Xv6_aH9Q _9x3Kvy_PEee7I5Xv6_aH9Q">
+    <ownedEnd xmi:id="_9x3Kvy_PEee7I5Xv6_aH9Q" visibility="public" type="_9x3Ksy_PEee7I5Xv6_aH9Q" association="_9x3Kvi_PEee7I5Xv6_aH9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9x3KwC_PEee7I5Xv6_aH9Q"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9x3KwS_PEee7I5Xv6_aH9Q" memberEnd="_9x3Kti_PEee7I5Xv6_aH9Q _9x3Kwi_PEee7I5Xv6_aH9Q">
+    <ownedEnd xmi:id="_9x3Kwi_PEee7I5Xv6_aH9Q" visibility="public" type="_9x3Ksy_PEee7I5Xv6_aH9Q" association="_9x3KwS_PEee7I5Xv6_aH9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9x3Kwy_PEee7I5Xv6_aH9Q"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9x3KxC_PEee7I5Xv6_aH9Q" memberEnd="_9x3KuC_PEee7I5Xv6_aH9Q _9x3KxS_PEee7I5Xv6_aH9Q">
+    <ownedEnd xmi:id="_9x3KxS_PEee7I5Xv6_aH9Q" visibility="public" type="_9x3Ksy_PEee7I5Xv6_aH9Q" association="_9x3KxC_PEee7I5Xv6_aH9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9x3Kxi_PEee7I5Xv6_aH9Q"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9x3Kxy_PEee7I5Xv6_aH9Q" memberEnd="_9x3Kui_PEee7I5Xv6_aH9Q _9x3KyC_PEee7I5Xv6_aH9Q">
+    <ownedEnd xmi:id="_9x3KyC_PEee7I5Xv6_aH9Q" visibility="public" type="_9x3Ksy_PEee7I5Xv6_aH9Q" association="_9x3Kxy_PEee7I5Xv6_aH9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9x3KyS_PEee7I5Xv6_aH9Q"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9x3Kyi_PEee7I5Xv6_aH9Q" memberEnd="_9x3KvC_PEee7I5Xv6_aH9Q _9x3Kyy_PEee7I5Xv6_aH9Q">
+    <ownedEnd xmi:id="_9x3Kyy_PEee7I5Xv6_aH9Q" visibility="public" type="_9x3Ksy_PEee7I5Xv6_aH9Q" association="_9x3Kyi_PEee7I5Xv6_aH9Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9x3KzC_PEee7I5Xv6_aH9Q" name="Yardas">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3KzS_PEee7I5Xv6_aH9Q" name="String opcion" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3Kzi_PEee7I5Xv6_aH9Q" name="Float num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3Kzy_PEee7I5Xv6_aH9Q" name="Void intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K0C_PEee7I5Xv6_aH9Q" name="Void setint(String opcion)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K0S_PEee7I5Xv6_aH9Q" name="String getStr()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K0i_PEee7I5Xv6_aH9Q" name="void setnum()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K0y_PEee7I5Xv6_aH9Q" name="int getnum(int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K1C_PEee7I5Xv6_aH9Q" name="void ejec()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9x3K1S_PEee7I5Xv6_aH9Q" name="pulgadas">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K1i_PEee7I5Xv6_aH9Q" name="String opcion" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K1y_PEee7I5Xv6_aH9Q" name="Float num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K2C_PEee7I5Xv6_aH9Q" name="Void intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K2S_PEee7I5Xv6_aH9Q" name="Void setint(String opcion)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K2i_PEee7I5Xv6_aH9Q" name="String getStr()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K2y_PEee7I5Xv6_aH9Q" name="Void setnum()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K3C_PEee7I5Xv6_aH9Q" name="int getnum(int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K3S_PEee7I5Xv6_aH9Q" name="void ejec()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9x3K3i_PEee7I5Xv6_aH9Q" name="pie">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K3y_PEee7I5Xv6_aH9Q" name="String opcion" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K4C_PEee7I5Xv6_aH9Q" name="Float num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K4S_PEee7I5Xv6_aH9Q" name="Void intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K4i_PEee7I5Xv6_aH9Q" name="Void setint(String opcion)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K4y_PEee7I5Xv6_aH9Q" name="String getStr()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K5C_PEee7I5Xv6_aH9Q" name="void setnum()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K5S_PEee7I5Xv6_aH9Q" name="int getnum(int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K5i_PEee7I5Xv6_aH9Q" name="void ejec()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9x3K5y_PEee7I5Xv6_aH9Q" name="cm">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K6C_PEee7I5Xv6_aH9Q" name="String opcion" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K6S_PEee7I5Xv6_aH9Q" name="Float num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K6i_PEee7I5Xv6_aH9Q" name="Void intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K6y_PEee7I5Xv6_aH9Q" name="Void setint(String opcion)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K7C_PEee7I5Xv6_aH9Q" name="String getStr()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K7S_PEee7I5Xv6_aH9Q" name="void setnum()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K7i_PEee7I5Xv6_aH9Q" name="int getnum(int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K7y_PEee7I5Xv6_aH9Q" name="void ejec()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9x3K8C_PEee7I5Xv6_aH9Q" name="Menu">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K8S_PEee7I5Xv6_aH9Q" name="String opcion" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K8i_PEee7I5Xv6_aH9Q" name="Void intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K8y_PEee7I5Xv6_aH9Q" name="Void setint(String opcion)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9x3K9C_PEee7I5Xv6_aH9Q" name="String getStr()" isAbstract="true"/>
+  </packagedElement>
+</uml:Model>
