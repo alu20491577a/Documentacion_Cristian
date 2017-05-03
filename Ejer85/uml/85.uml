@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qGyrUC8sEeeMZNNsqs6fVw" name="85">
+  <eAnnotations xmi:id="_qGyrUS8sEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_qGyrUi8sEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_qGyrUy8sEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qGyrVC8sEeeMZNNsqs6fVw" name="cantidad">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrVS8sEeeMZNNsqs6fVw" name="Int num" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrVi8sEeeMZNNsqs6fVw" name="Void intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrVy8sEeeMZNNsqs6fVw" name="Void setnum(int num)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrWC8sEeeMZNNsqs6fVw" name="int getnum()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qGyrWS8sEeeMZNNsqs6fVw" name="orden">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrWi8sEeeMZNNsqs6fVw" name="double num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrWy8sEeeMZNNsqs6fVw" name="Int[] cocientes" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrXC8sEeeMZNNsqs6fVw" name="Int[] divisores" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrXS8sEeeMZNNsqs6fVw" name="String[] unidades" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrXi8sEeeMZNNsqs6fVw" name="double SetNum1(double num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrXy8sEeeMZNNsqs6fVw" name="double GetNum1()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrYC8sEeeMZNNsqs6fVw" name="Void order (int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrYS8sEeeMZNNsqs6fVw" name="Void resultado()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qGyrYi8sEeeMZNNsqs6fVw" name="Principal">
+    <ownedAttribute xmi:id="_qGyrYy8sEeeMZNNsqs6fVw" name="cantidad" visibility="public" type="_qGyrVC8sEeeMZNNsqs6fVw" association="_qGyrZy8sEeeMZNNsqs6fVw"/>
+    <ownedAttribute xmi:id="_qGyrZC8sEeeMZNNsqs6fVw" name="orden" visibility="public" type="_qGyrWS8sEeeMZNNsqs6fVw" association="_qGyraS8sEeeMZNNsqs6fVw"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrZS8sEeeMZNNsqs6fVw" name="Int num" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_qGyrZi8sEeeMZNNsqs6fVw" name="Double num2" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qGyrZy8sEeeMZNNsqs6fVw" memberEnd="_qGyrYy8sEeeMZNNsqs6fVw _qGyraC8sEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_qGyraC8sEeeMZNNsqs6fVw" visibility="public" type="_qGyrYi8sEeeMZNNsqs6fVw" association="_qGyrZy8sEeeMZNNsqs6fVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qGyraS8sEeeMZNNsqs6fVw" memberEnd="_qGyrZC8sEeeMZNNsqs6fVw _qGyrai8sEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_qGyrai8sEeeMZNNsqs6fVw" visibility="public" type="_qGyrYi8sEeeMZNNsqs6fVw" association="_qGyraS8sEeeMZNNsqs6fVw"/>
+  </packagedElement>
+</uml:Model>
