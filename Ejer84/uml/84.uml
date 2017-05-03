@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_ugx_0C8rEeeMZNNsqs6fVw" name="84">
+  <eAnnotations xmi:id="_ugx_0S8rEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_ugx_0i8rEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_ugx_0y8rEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ugx_1C8rEeeMZNNsqs6fVw" name="Operación">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_1S8rEeeMZNNsqs6fVw" name="Int cateto" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_1i8rEeeMZNNsqs6fVw" name="Int cateto2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_1y8rEeeMZNNsqs6fVw" name="Float hipotenusa" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_2C8rEeeMZNNsqs6fVw" name="Int Setcateto( int cateto)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_2S8rEeeMZNNsqs6fVw" name="Int Setcateto2 (int cateto2)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_2i8rEeeMZNNsqs6fVw" name="Float resultado()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ugx_2y8rEeeMZNNsqs6fVw" name="Variables">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_3C8rEeeMZNNsqs6fVw" name="Int cateto" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_3S8rEeeMZNNsqs6fVw" name="Int cateto2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_3i8rEeeMZNNsqs6fVw" name="Void cateto()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_3y8rEeeMZNNsqs6fVw" name="Void cateto2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_4C8rEeeMZNNsqs6fVw" name="Int getcateto()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_4S8rEeeMZNNsqs6fVw" name="Int getcateto2()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ugx_4i8rEeeMZNNsqs6fVw" name="Class">
+    <ownedAttribute xmi:id="_ugx_4y8rEeeMZNNsqs6fVw" name="operación" visibility="public" type="_ugx_1C8rEeeMZNNsqs6fVw" association="_ugx_5y8rEeeMZNNsqs6fVw"/>
+    <ownedAttribute xmi:id="_ugx_5C8rEeeMZNNsqs6fVw" name="variables" visibility="public" type="_ugx_2y8rEeeMZNNsqs6fVw" association="_ugx_6S8rEeeMZNNsqs6fVw"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_5S8rEeeMZNNsqs6fVw" name="Int cateto" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ugx_5i8rEeeMZNNsqs6fVw" name="Int cateto2" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ugx_5y8rEeeMZNNsqs6fVw" memberEnd="_ugx_4y8rEeeMZNNsqs6fVw _ugx_6C8rEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_ugx_6C8rEeeMZNNsqs6fVw" visibility="public" type="_ugx_4i8rEeeMZNNsqs6fVw" association="_ugx_5y8rEeeMZNNsqs6fVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ugx_6S8rEeeMZNNsqs6fVw" memberEnd="_ugx_5C8rEeeMZNNsqs6fVw _ugx_6i8rEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_ugx_6i8rEeeMZNNsqs6fVw" visibility="public" type="_ugx_4i8rEeeMZNNsqs6fVw" association="_ugx_6S8rEeeMZNNsqs6fVw"/>
+  </packagedElement>
+</uml:Model>
