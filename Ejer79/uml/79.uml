@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_M6-DoC8nEeeMZNNsqs6fVw" name="79">
+  <eAnnotations xmi:id="_M6-DoS8nEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_M6-Doi8nEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_M6-Doy8nEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_M6-DpC8nEeeMZNNsqs6fVw" name="Principal">
+    <ownedAttribute xmi:id="_M6-DpS8nEeeMZNNsqs6fVw" name="area" visibility="public" type="_M6-DrC8nEeeMZNNsqs6fVw" association="_M6-Dqi8nEeeMZNNsqs6fVw"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-Dpi8nEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-Dpy8nEeeMZNNsqs6fVw" name="Int num2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-DqC8nEeeMZNNsqs6fVw" name="Int num3" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-DqS8nEeeMZNNsqs6fVw" name="Float num4" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_M6-Dqi8nEeeMZNNsqs6fVw" memberEnd="_M6-DpS8nEeeMZNNsqs6fVw _M6-Dqy8nEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_M6-Dqy8nEeeMZNNsqs6fVw" visibility="public" type="_M6-DpC8nEeeMZNNsqs6fVw" association="_M6-Dqi8nEeeMZNNsqs6fVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_M6-DrC8nEeeMZNNsqs6fVw" name="Area">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-DrS8nEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-Dri8nEeeMZNNsqs6fVw" name="Int num2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-Dry8nEeeMZNNsqs6fVw" name="Int num3" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-DsC8nEeeMZNNsqs6fVw" name="Float num4" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-qsC8nEeeMZNNsqs6fVw" name="Float num5" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-qsS8nEeeMZNNsqs6fVw" name="Int perimetro (int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-qsi8nEeeMZNNsqs6fVw" name="Float apotema (int num 1 int num3)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M6-qsy8nEeeMZNNsqs6fVw" name="Float area( int num2 int num4)" isAbstract="true"/>
+  </packagedElement>
+</uml:Model>
