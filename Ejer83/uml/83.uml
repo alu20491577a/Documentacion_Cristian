@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_4xSbwC8qEeeMZNNsqs6fVw" name="83">
+  <eAnnotations xmi:id="_4xSbwS8qEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_4xSbwi8qEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_4xSbwy8qEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4xTC0C8qEeeMZNNsqs6fVw" name="Introducción">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC0S8qEeeMZNNsqs6fVw" name="Int x2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC0i8qEeeMZNNsqs6fVw" name="Int x" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC0y8qEeeMZNNsqs6fVw" name="Int num" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC1C8qEeeMZNNsqs6fVw" name="Float raiz" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC1S8qEeeMZNNsqs6fVw" name="Void x2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC1i8qEeeMZNNsqs6fVw" name="Void x()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC1y8qEeeMZNNsqs6fVw" name="Void num()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC2C8qEeeMZNNsqs6fVw" name="Void SetX2(int x2)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC2S8qEeeMZNNsqs6fVw" name="Void SetX(int x)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC2i8qEeeMZNNsqs6fVw" name="Void SetNum(int num)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC2y8qEeeMZNNsqs6fVw" name="Int GetX2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC3C8qEeeMZNNsqs6fVw" name="Int GetX()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC3S8qEeeMZNNsqs6fVw" name="Int GetNum()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC3i8qEeeMZNNsqs6fVw" name="Float Raiz()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4xTC3y8qEeeMZNNsqs6fVw" name="Ecuación">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC4C8qEeeMZNNsqs6fVw" name="Float raiz" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC4S8qEeeMZNNsqs6fVw" name="Int x2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC4i8qEeeMZNNsqs6fVw" name="Int x" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC4y8qEeeMZNNsqs6fVw" name="Float Res1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC5C8qEeeMZNNsqs6fVw" name="Float Res2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC5S8qEeeMZNNsqs6fVw" name="Int SetX2(int x2)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC5i8qEeeMZNNsqs6fVw" name="Int SetX(int x)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC5y8qEeeMZNNsqs6fVw" name="Float Setraiz(float raiz)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC6C8qEeeMZNNsqs6fVw" name="Float SetRes1()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC6S8qEeeMZNNsqs6fVw" name="Float SetRest2()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4xTC6i8qEeeMZNNsqs6fVw" name="Principal">
+    <ownedAttribute xmi:id="_4xTC6y8qEeeMZNNsqs6fVw" name="ecuación" visibility="public" type="_4xTC3y8qEeeMZNNsqs6fVw" association="_4xTC8i8qEeeMZNNsqs6fVw"/>
+    <ownedAttribute xmi:id="_4xTC7C8qEeeMZNNsqs6fVw" name="introducción" visibility="public" type="_4xTC0C8qEeeMZNNsqs6fVw" association="_4xTC9C8qEeeMZNNsqs6fVw"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC7S8qEeeMZNNsqs6fVw" name="Int x2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC7i8qEeeMZNNsqs6fVw" name="Int x" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC7y8qEeeMZNNsqs6fVw" name="Int num" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC8C8qEeeMZNNsqs6fVw" name="Float num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_4xTC8S8qEeeMZNNsqs6fVw" name="Float num2" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4xTC8i8qEeeMZNNsqs6fVw" memberEnd="_4xTC6y8qEeeMZNNsqs6fVw _4xTC8y8qEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_4xTC8y8qEeeMZNNsqs6fVw" visibility="public" type="_4xTC6i8qEeeMZNNsqs6fVw" association="_4xTC8i8qEeeMZNNsqs6fVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4xTC9C8qEeeMZNNsqs6fVw" memberEnd="_4xTC7C8qEeeMZNNsqs6fVw _4xTC9S8qEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_4xTC9S8qEeeMZNNsqs6fVw" visibility="public" type="_4xTC6i8qEeeMZNNsqs6fVw" association="_4xTC9C8qEeeMZNNsqs6fVw"/>
+  </packagedElement>
+</uml:Model>
