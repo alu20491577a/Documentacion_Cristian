@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_0RGVcC8nEeeMZNNsqs6fVw" name="80">
+  <eAnnotations xmi:id="_0RGVcS8nEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_0RGVci8nEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_0RGVcy8nEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0RGVdC8nEeeMZNNsqs6fVw" name="Principal">
+    <ownedAttribute xmi:id="_0RGVdS8nEeeMZNNsqs6fVw" name="area" visibility="public" type="_0RGVeS8nEeeMZNNsqs6fVw" association="_0RGVdy8nEeeMZNNsqs6fVw"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_0RGVdi8nEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0RGVdy8nEeeMZNNsqs6fVw" memberEnd="_0RGVdS8nEeeMZNNsqs6fVw _0RGVeC8nEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_0RGVeC8nEeeMZNNsqs6fVw" visibility="public" type="_0RGVdC8nEeeMZNNsqs6fVw" association="_0RGVdy8nEeeMZNNsqs6fVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0RGVeS8nEeeMZNNsqs6fVw" name="Area">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_0RGVei8nEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_0RGVey8nEeeMZNNsqs6fVw" name="Int num2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_0RGVfC8nEeeMZNNsqs6fVw" name="Int area (int num1)" isAbstract="true"/>
+  </packagedElement>
+</uml:Model>
