@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_S4Ap0C8nEeeMZNNsqs6fVw" name="76">
+  <eAnnotations xmi:id="_S4Ap0S8nEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_S4Ap0i8nEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_S4Ap0y8nEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_S4Ap1C8nEeeMZNNsqs6fVw" name="Resta">
+    <ownedComment xmi:id="_S4Ap1S8nEeeMZNNsqs6fVw">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap1i8nEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap1y8nEeeMZNNsqs6fVw" name="Int num2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap2C8nEeeMZNNsqs6fVw" name="Int num3" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap2S8nEeeMZNNsqs6fVw" name="Resta (int num1 int num2)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap2i8nEeeMZNNsqs6fVw" name="Int getnum1()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap2y8nEeeMZNNsqs6fVw" name="Int getnum2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap3C8nEeeMZNNsqs6fVw" name="Int getnum3()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_S4Ap3S8nEeeMZNNsqs6fVw" name="Suma">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap3i8nEeeMZNNsqs6fVw" name="Int num 1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap3y8nEeeMZNNsqs6fVw" name="Int num 2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap4C8nEeeMZNNsqs6fVw" name="Int num 3" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap4S8nEeeMZNNsqs6fVw" name="Suma (int num1 int num2)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap4i8nEeeMZNNsqs6fVw" name="Int getnum1()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap4y8nEeeMZNNsqs6fVw" name="Int getnum2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap5C8nEeeMZNNsqs6fVw" name="Int getnum3()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_S4Ap5S8nEeeMZNNsqs6fVw" name="Multiplicación">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap5i8nEeeMZNNsqs6fVw" name="Int num 1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap5y8nEeeMZNNsqs6fVw" name="Int num 2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap6C8nEeeMZNNsqs6fVw" name="Int num 3" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap6S8nEeeMZNNsqs6fVw" name="Multiplicación (int num1 int num2)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap6i8nEeeMZNNsqs6fVw" name="Int getnum1()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap6y8nEeeMZNNsqs6fVw" name="Int getnum2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap7C8nEeeMZNNsqs6fVw" name="Int getnum3()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_S4Ap7S8nEeeMZNNsqs6fVw" name="División">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap7i8nEeeMZNNsqs6fVw" name="Int num 1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap7y8nEeeMZNNsqs6fVw" name="Int num 2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap8C8nEeeMZNNsqs6fVw" name="Int num 3" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap8S8nEeeMZNNsqs6fVw" name="División (int num1 int num2)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap8i8nEeeMZNNsqs6fVw" name="Float getnum1()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap8y8nEeeMZNNsqs6fVw" name="Float getnum2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4Ap9C8nEeeMZNNsqs6fVw" name="Float getnum3()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_S4Ap9S8nEeeMZNNsqs6fVw" name="Principal">
+    <ownedAttribute xmi:id="_S4Ap9i8nEeeMZNNsqs6fVw" name="división" visibility="public" type="_S4Ap7S8nEeeMZNNsqs6fVw" association="_S4AqBy8nEeeMZNNsqs6fVw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S4Ap9y8nEeeMZNNsqs6fVw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S4Ap-C8nEeeMZNNsqs6fVw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_S4Ap-S8nEeeMZNNsqs6fVw" name="multiplicación" visibility="public" type="_S4Ap5S8nEeeMZNNsqs6fVw" association="_S4AqCy8nEeeMZNNsqs6fVw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S4Ap-i8nEeeMZNNsqs6fVw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S4Ap-y8nEeeMZNNsqs6fVw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_S4Ap_C8nEeeMZNNsqs6fVw" name="suma" visibility="public" type="_S4Ap3S8nEeeMZNNsqs6fVw" association="_S4AqDy8nEeeMZNNsqs6fVw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S4Ap_S8nEeeMZNNsqs6fVw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S4Ap_i8nEeeMZNNsqs6fVw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_S4Ap_y8nEeeMZNNsqs6fVw" name="resta" visibility="public" type="_S4Ap1C8nEeeMZNNsqs6fVw" association="_S4AqEy8nEeeMZNNsqs6fVw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S4AqAC8nEeeMZNNsqs6fVw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S4AqAS8nEeeMZNNsqs6fVw"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4AqAi8nEeeMZNNsqs6fVw" name="Int num()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4AqAy8nEeeMZNNsqs6fVw" name="Int num1()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4AqBC8nEeeMZNNsqs6fVw" name="Int num2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4AqBS8nEeeMZNNsqs6fVw" name="Int num4()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_S4AqBi8nEeeMZNNsqs6fVw" name="Int num5()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S4AqBy8nEeeMZNNsqs6fVw" memberEnd="_S4Ap9i8nEeeMZNNsqs6fVw _S4AqCC8nEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_S4AqCC8nEeeMZNNsqs6fVw" visibility="public" type="_S4Ap9S8nEeeMZNNsqs6fVw" association="_S4AqBy8nEeeMZNNsqs6fVw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S4AqCS8nEeeMZNNsqs6fVw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S4AqCi8nEeeMZNNsqs6fVw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S4AqCy8nEeeMZNNsqs6fVw" memberEnd="_S4Ap-S8nEeeMZNNsqs6fVw _S4AqDC8nEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_S4AqDC8nEeeMZNNsqs6fVw" visibility="public" type="_S4Ap9S8nEeeMZNNsqs6fVw" association="_S4AqCy8nEeeMZNNsqs6fVw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S4AqDS8nEeeMZNNsqs6fVw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S4AqDi8nEeeMZNNsqs6fVw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S4AqDy8nEeeMZNNsqs6fVw" memberEnd="_S4Ap_C8nEeeMZNNsqs6fVw _S4AqEC8nEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_S4AqEC8nEeeMZNNsqs6fVw" visibility="public" type="_S4Ap9S8nEeeMZNNsqs6fVw" association="_S4AqDy8nEeeMZNNsqs6fVw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S4AqES8nEeeMZNNsqs6fVw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S4AqEi8nEeeMZNNsqs6fVw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S4AqEy8nEeeMZNNsqs6fVw" memberEnd="_S4Ap_y8nEeeMZNNsqs6fVw _S4AqFC8nEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_S4AqFC8nEeeMZNNsqs6fVw" visibility="public" type="_S4Ap9S8nEeeMZNNsqs6fVw" association="_S4AqEy8nEeeMZNNsqs6fVw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S4AqFS8nEeeMZNNsqs6fVw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S4AqFi8nEeeMZNNsqs6fVw"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
