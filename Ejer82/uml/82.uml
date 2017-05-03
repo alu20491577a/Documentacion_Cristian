@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_UzyvIC8pEeeMZNNsqs6fVw" name="82">
+  <eAnnotations xmi:id="_UzyvIS8pEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_UzyvIi8pEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_UzyvIy8pEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UzyvJC8pEeeMZNNsqs6fVw" name="Money">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvJS8pEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvJi8pEeeMZNNsqs6fVw" name="Int[] cocientes" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvJy8pEeeMZNNsqs6fVw" name="Int[] divisores" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvKC8pEeeMZNNsqs6fVw" name="Int SetNum1 (int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvKS8pEeeMZNNsqs6fVw" name="Int GetNum1()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvKi8pEeeMZNNsqs6fVw" name="Void Orden(int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvKy8pEeeMZNNsqs6fVw" name="Void Resultado()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UzyvLC8pEeeMZNNsqs6fVw" name="Pedir">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvLS8pEeeMZNNsqs6fVw" name="Int num" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvLi8pEeeMZNNsqs6fVw" name="void Intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvLy8pEeeMZNNsqs6fVw" name="void SetNum(int num)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvMC8pEeeMZNNsqs6fVw" name="Int GetNum()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UzyvMS8pEeeMZNNsqs6fVw" name="Principal">
+    <ownedAttribute xmi:id="_UzyvMi8pEeeMZNNsqs6fVw" name="pedir" visibility="public" type="_UzyvLC8pEeeMZNNsqs6fVw" association="_UzyvNi8pEeeMZNNsqs6fVw"/>
+    <ownedAttribute xmi:id="_UzyvMy8pEeeMZNNsqs6fVw" name="money" visibility="public" type="_UzyvJC8pEeeMZNNsqs6fVw" association="_UzyvOC8pEeeMZNNsqs6fVw"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvNC8pEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_UzyvNS8pEeeMZNNsqs6fVw" name="Int num2" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UzyvNi8pEeeMZNNsqs6fVw" memberEnd="_UzyvMi8pEeeMZNNsqs6fVw _UzyvNy8pEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_UzyvNy8pEeeMZNNsqs6fVw" visibility="public" type="_UzyvMS8pEeeMZNNsqs6fVw" association="_UzyvNi8pEeeMZNNsqs6fVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UzyvOC8pEeeMZNNsqs6fVw" memberEnd="_UzyvMy8pEeeMZNNsqs6fVw _UzyvOS8pEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_UzyvOS8pEeeMZNNsqs6fVw" visibility="public" type="_UzyvMS8pEeeMZNNsqs6fVw" association="_UzyvOC8pEeeMZNNsqs6fVw"/>
+  </packagedElement>
+</uml:Model>
