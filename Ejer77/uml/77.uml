@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_iAkZ0C8mEeeMZNNsqs6fVw" name="77">
+  <eAnnotations xmi:id="_iAln8C8mEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_iAln8S8mEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_iAln8i8mEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iArHgC8mEeeMZNNsqs6fVw" name="Circunferencia">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHgS8mEeeMZNNsqs6fVw" name="float num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHgi8mEeeMZNNsqs6fVw" name="float num3" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHgy8mEeeMZNNsqs6fVw" name="Circunferencia (float num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHhC8mEeeMZNNsqs6fVw" name="float getnum3()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iArHhS8mEeeMZNNsqs6fVw" name="Principal">
+    <ownedAttribute xmi:id="_iArHhi8mEeeMZNNsqs6fVw" name="circunferencia" visibility="public" type="_iArHgC8mEeeMZNNsqs6fVw" association="_iArHiS8mEeeMZNNsqs6fVw"/>
+    <ownedAttribute xmi:id="_iArHhy8mEeeMZNNsqs6fVw" name="area" visibility="public" type="_iArHjS8mEeeMZNNsqs6fVw" association="_iArHiy8mEeeMZNNsqs6fVw"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHiC8mEeeMZNNsqs6fVw" name="float num1" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iArHiS8mEeeMZNNsqs6fVw" memberEnd="_iArHhi8mEeeMZNNsqs6fVw _iArHii8mEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_iArHii8mEeeMZNNsqs6fVw" visibility="public" type="_iArHhS8mEeeMZNNsqs6fVw" association="_iArHiS8mEeeMZNNsqs6fVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iArHiy8mEeeMZNNsqs6fVw" memberEnd="_iArHhy8mEeeMZNNsqs6fVw _iArHjC8mEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_iArHjC8mEeeMZNNsqs6fVw" visibility="public" type="_iArHhS8mEeeMZNNsqs6fVw" association="_iArHiy8mEeeMZNNsqs6fVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iArHjS8mEeeMZNNsqs6fVw" name="Area">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHji8mEeeMZNNsqs6fVw" name="float num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHjy8mEeeMZNNsqs6fVw" name="float num3" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHkC8mEeeMZNNsqs6fVw" name="Area (float num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_iArHkS8mEeeMZNNsqs6fVw" name="float getnum3()" isAbstract="true"/>
+  </packagedElement>
+</uml:Model>
