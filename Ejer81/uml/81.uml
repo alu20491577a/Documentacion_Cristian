@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_dS7UEC8oEeeMZNNsqs6fVw" name="81">
+  <eAnnotations xmi:id="_dS7UES8oEeeMZNNsqs6fVw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_dS7UEi8oEeeMZNNsqs6fVw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_dS7UEy8oEeeMZNNsqs6fVw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dS7UFC8oEeeMZNNsqs6fVw" name="Sphere">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_dS7UFS8oEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_dS7UFi8oEeeMZNNsqs6fVw" name="Float num2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_dS7UFy8oEeeMZNNsqs6fVw" name="Float area(int num1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_dS7UGC8oEeeMZNNsqs6fVw" name="Float volumen(int num1)" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dS7UGS8oEeeMZNNsqs6fVw" name="Principal">
+    <ownedAttribute xmi:id="_dS7UGi8oEeeMZNNsqs6fVw" name="sphere" visibility="public" type="_dS7UFC8oEeeMZNNsqs6fVw" association="_dS7UHi8oEeeMZNNsqs6fVw"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_dS7UGy8oEeeMZNNsqs6fVw" name="Int num1" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_dS7UHC8oEeeMZNNsqs6fVw" name="Int num2" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_dS7UHS8oEeeMZNNsqs6fVw" name="Float num3" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dS7UHi8oEeeMZNNsqs6fVw" memberEnd="_dS7UGi8oEeeMZNNsqs6fVw _dS7UHy8oEeeMZNNsqs6fVw">
+    <ownedEnd xmi:id="_dS7UHy8oEeeMZNNsqs6fVw" visibility="public" type="_dS7UGS8oEeeMZNNsqs6fVw" association="_dS7UHi8oEeeMZNNsqs6fVw"/>
+  </packagedElement>
+</uml:Model>
