@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_jd3rQD-uEeeiK_GUqKVu2w" name="89">
+  <eAnnotations xmi:id="_jd3rQT-uEeeiK_GUqKVu2w" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_jd3rQj-uEeeiK_GUqKVu2w" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_jd3rQz-uEeeiK_GUqKVu2w" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jd3rRD-uEeeiK_GUqKVu2w" name="Contador">
+    <ownedAttribute xmi:id="_jd3rRT-uEeeiK_GUqKVu2w" name="num" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd3rRj-uEeeiK_GUqKVu2w" name="contador" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd4SUD-uEeeiK_GUqKVu2w" name="contador 2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd4SUT-uEeeiK_GUqKVu2w" name="Scanner teclado" visibility="public" isUnique="false"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd4SUj-uEeeiK_GUqKVu2w" name="Contador()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd4SUz-uEeeiK_GUqKVu2w" name="void iniciar()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd4SVD-uEeeiK_GUqKVu2w" name="int getcontador()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd4SVT-uEeeiK_GUqKVu2w" name="int getcontador2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd4SVj-uEeeiK_GUqKVu2w" name="int copy(int contador)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd4SVz-uEeeiK_GUqKVu2w" name="int disminuir(int contador)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd4SWD-uEeeiK_GUqKVu2w" name="int incrementar(int contador)" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jd4SWT-uEeeiK_GUqKVu2w" name="Principal">
+    <ownedAttribute xmi:id="_jd4SWj-uEeeiK_GUqKVu2w" name="menu" visibility="public" type="_jd4SXj-uEeeiK_GUqKVu2w" association="_jd4SXD-uEeeiK_GUqKVu2w"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd4SWz-uEeeiK_GUqKVu2w" name="Static void main(String[ ] args)" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jd4SXD-uEeeiK_GUqKVu2w" memberEnd="_jd4SWj-uEeeiK_GUqKVu2w _jd4SXT-uEeeiK_GUqKVu2w">
+    <ownedEnd xmi:id="_jd4SXT-uEeeiK_GUqKVu2w" visibility="public" type="_jd4SWT-uEeeiK_GUqKVu2w" association="_jd4SXD-uEeeiK_GUqKVu2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jd4SXj-uEeeiK_GUqKVu2w" name="Menu">
+    <ownedAttribute xmi:id="_jd4SXz-uEeeiK_GUqKVu2w" name="contador" visibility="public" type="_jd3rRD-uEeeiK_GUqKVu2w" association="_jd5gdj-uEeeiK_GUqKVu2w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jd4SYD-uEeeiK_GUqKVu2w" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd4SYT-uEeeiK_GUqKVu2w" name="num" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd45YD-uEeeiK_GUqKVu2w" name="num2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd45YT-uEeeiK_GUqKVu2w" name="num3" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd45Yj-uEeeiK_GUqKVu2w" name="num4" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd5gcD-uEeeiK_GUqKVu2w" name="n" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_jd5gcT-uEeeiK_GUqKVu2w">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd5gcj-uEeeiK_GUqKVu2w" name="a" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jd5gcz-uEeeiK_GUqKVu2w" name="Contador c1" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_jd5gdD-uEeeiK_GUqKVu2w">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_jd5gdT-uEeeiK_GUqKVu2w" name="void menu()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jd5gdj-uEeeiK_GUqKVu2w" memberEnd="_jd4SXz-uEeeiK_GUqKVu2w _jd5gdz-uEeeiK_GUqKVu2w">
+    <ownedEnd xmi:id="_jd5gdz-uEeeiK_GUqKVu2w" visibility="public" type="_jd4SXj-uEeeiK_GUqKVu2w" association="_jd5gdj-uEeeiK_GUqKVu2w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jd5geD-uEeeiK_GUqKVu2w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
