@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Xf6UMD-dEeeZGqVxTQZQoQ" name="92">
+  <eAnnotations xmi:id="_Xf67QD-dEeeZGqVxTQZQoQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Xf67QT-dEeeZGqVxTQZQoQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xf67Qj-dEeeZGqVxTQZQoQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Xf67Qz-dEeeZGqVxTQZQoQ" name="DNI">
+    <ownedAttribute xmi:id="_Xf67RD-dEeeZGqVxTQZQoQ" name="DNI" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Xf67RT-dEeeZGqVxTQZQoQ" name="resto" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Xf67Rj-dEeeZGqVxTQZQoQ" name="Letra" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Xf67Rz-dEeeZGqVxTQZQoQ" name="void DNI()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Xf67SD-dEeeZGqVxTQZQoQ" name="int getDNI()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Xf67ST-dEeeZGqVxTQZQoQ" name="void letra(String letra)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Xf67Sj-dEeeZGqVxTQZQoQ" name="void calculo()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Xf67Sz-dEeeZGqVxTQZQoQ" name="Principal">
+    <ownedAttribute xmi:id="_Xf67TD-dEeeZGqVxTQZQoQ" name="dNI" visibility="public" type="_Xf67Qz-dEeeZGqVxTQZQoQ" association="_Xf67Tj-dEeeZGqVxTQZQoQ"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Xf67TT-dEeeZGqVxTQZQoQ" name="public static void main(String[ ]  args)" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Xf67Tj-dEeeZGqVxTQZQoQ" memberEnd="_Xf67TD-dEeeZGqVxTQZQoQ _Xf67Tz-dEeeZGqVxTQZQoQ">
+    <ownedEnd xmi:id="_Xf67Tz-dEeeZGqVxTQZQoQ" visibility="public" type="_Xf67Sz-dEeeZGqVxTQZQoQ" association="_Xf67Tj-dEeeZGqVxTQZQoQ"/>
+  </packagedElement>
+</uml:Model>
