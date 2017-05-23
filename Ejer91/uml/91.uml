@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="__zmEUD-mEeeZGqVxTQZQoQ" name="91">
+  <eAnnotations xmi:id="__zmEUT-mEeeZGqVxTQZQoQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="__zmEUj-mEeeZGqVxTQZQoQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="__zmEUz-mEeeZGqVxTQZQoQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="__zmEVD-mEeeZGqVxTQZQoQ" name="Principal">
+    <ownedAttribute xmi:id="__zmrYD-mEeeZGqVxTQZQoQ" name="menu" visibility="public" type="__zmrdD-mEeeZGqVxTQZQoQ" association="__zmrYj-mEeeZGqVxTQZQoQ"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__zmrYT-mEeeZGqVxTQZQoQ" name="public static void main(String[] args)" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__zmrYj-mEeeZGqVxTQZQoQ" memberEnd="__zmrYD-mEeeZGqVxTQZQoQ __zmrYz-mEeeZGqVxTQZQoQ">
+    <ownedEnd xmi:id="__zmrYz-mEeeZGqVxTQZQoQ" visibility="public" type="__zmEVD-mEeeZGqVxTQZQoQ" association="__zmrYj-mEeeZGqVxTQZQoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__zmrZD-mEeeZGqVxTQZQoQ" name="Fecha">
+    <ownedAttribute xmi:id="__zmrZT-mEeeZGqVxTQZQoQ" name="dia" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmrZj-mEeeZGqVxTQZQoQ" name="mes" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmrZz-mEeeZGqVxTQZQoQ" name="año" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmraD-mEeeZGqVxTQZQoQ" name="Bisiesto" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmraT-mEeeZGqVxTQZQoQ" name="resto" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmraj-mEeeZGqVxTQZQoQ" name="resto2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmraz-mEeeZGqVxTQZQoQ" name="num" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmrbD-mEeeZGqVxTQZQoQ" name="num2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmrbT-mEeeZGqVxTQZQoQ" name="num3" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__zmrbj-mEeeZGqVxTQZQoQ" name="void fecha()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__zmrbz-mEeeZGqVxTQZQoQ" name="void intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__zmrcD-mEeeZGqVxTQZQoQ" name="int getdia()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__zmrcT-mEeeZGqVxTQZQoQ" name="int getmes()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__zmrcj-mEeeZGqVxTQZQoQ" name="int getaño()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__zmrcz-mEeeZGqVxTQZQoQ" name="boolean getbisiesto()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__zmrdD-mEeeZGqVxTQZQoQ" name="Menu">
+    <ownedAttribute xmi:id="__zmrdT-mEeeZGqVxTQZQoQ" name="fecha" visibility="public" type="__zmrZD-mEeeZGqVxTQZQoQ" association="__zn5hT-mEeeZGqVxTQZQoQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__zmrdj-mEeeZGqVxTQZQoQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmrdz-mEeeZGqVxTQZQoQ" name="dia" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmreD-mEeeZGqVxTQZQoQ" name="mes" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmreT-mEeeZGqVxTQZQoQ" name="año" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmrej-mEeeZGqVxTQZQoQ" name="Bisiesto" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmrez-mEeeZGqVxTQZQoQ" name="num" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zmrfD-mEeeZGqVxTQZQoQ" name="num2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zn5gD-mEeeZGqVxTQZQoQ" name="day" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zn5gT-mEeeZGqVxTQZQoQ" name="Month" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zn5gj-mEeeZGqVxTQZQoQ" name="year" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zn5gz-mEeeZGqVxTQZQoQ" name="Fecha f1" visibility="public" isUnique="false"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__zn5hD-mEeeZGqVxTQZQoQ" name="Void menu()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__zn5hT-mEeeZGqVxTQZQoQ" memberEnd="__zmrdT-mEeeZGqVxTQZQoQ __zn5hj-mEeeZGqVxTQZQoQ">
+    <ownedEnd xmi:id="__zn5hj-mEeeZGqVxTQZQoQ" visibility="public" type="__zmrdD-mEeeZGqVxTQZQoQ" association="__zn5hT-mEeeZGqVxTQZQoQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__zn5hz-mEeeZGqVxTQZQoQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
