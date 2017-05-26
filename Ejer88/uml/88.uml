@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_9tInkEHqEeet_tFHI56wJg" name="87">
+  <eAnnotations xmi:id="_9tInkUHqEeet_tFHI56wJg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_9tInkkHqEeet_tFHI56wJg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_9tInk0HqEeet_tFHI56wJg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9tInlEHqEeet_tFHI56wJg" name="Cuenta">
+    <ownedAttribute xmi:id="_9tInlUHqEeet_tFHI56wJg" name="name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tInlkHqEeet_tFHI56wJg" name="apellido" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tInl0HqEeet_tFHI56wJg" name="apellido2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tInmEHqEeet_tFHI56wJg" name="DNI" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tInmUHqEeet_tFHI56wJg" name="saldo" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tInmkHqEeet_tFHI56wJg" name="interes" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tInm0HqEeet_tFHI56wJg" name="numero_cuenta" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tInnEHqEeet_tFHI56wJg" name="num" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tInnUHqEeet_tFHI56wJg" name="Scanner teclado" visibility="public" isUnique="false"/>
+    <ownedAttribute xmi:id="_9tInnkHqEeet_tFHI56wJg" name="ArrayList &lt;cuenta> Account" visibility="public" isUnique="false"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOoEHqEeet_tFHI56wJg" name="Scanner teclado" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOoUHqEeet_tFHI56wJg" name="Cuenta()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOokHqEeet_tFHI56wJg" name="Cuenta (Cuenta c1)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOo0HqEeet_tFHI56wJg" name="void registro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOpEHqEeet_tFHI56wJg" name="void ncset(String numero_cuenta)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOpUHqEeet_tFHI56wJg" name="void cset(String name, String apellido, String apellido2, String DNI, int saldo, String numero_cuenta)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOpkHqEeet_tFHI56wJg" name="void setsaldoandint(int saldo)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOp0HqEeet_tFHI56wJg" name="String getname()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOqEHqEeet_tFHI56wJg" name="String getapellido()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOqUHqEeet_tFHI56wJg" name="String getapellido2()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOqkHqEeet_tFHI56wJg" name="String getDNI()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOq0HqEeet_tFHI56wJg" name="int getsaldo()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOrEHqEeet_tFHI56wJg" name="Double getint()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOrUHqEeet_tFHI56wJg" name="String getnc()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOrkHqEeet_tFHI56wJg" name="void ingreso()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOr0HqEeet_tFHI56wJg" name="void reintegro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOsEHqEeet_tFHI56wJg" name="void transferencia(Cuenta c1, Cuenta c2,Arraylist banco)" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9tJOsUHqEeet_tFHI56wJg" name="Clase Principal">
+    <ownedAttribute xmi:id="_9tJOskHqEeet_tFHI56wJg" name="cuenta" visibility="public" type="_9tInlEHqEeet_tFHI56wJg" association="_9tJOukHqEeet_tFHI56wJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9tJOs0HqEeet_tFHI56wJg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9tJOtEHqEeet_tFHI56wJg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tJOtUHqEeet_tFHI56wJg" name="menu" visibility="public" type="_9tJOwEHqEeet_tFHI56wJg" association="_9tJOvkHqEeet_tFHI56wJg"/>
+    <ownedAttribute xmi:id="_9tJOtkHqEeet_tFHI56wJg" name="num" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tJOt0HqEeet_tFHI56wJg" name="num2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tJOuEHqEeet_tFHI56wJg" name="num3" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9tJOuUHqEeet_tFHI56wJg" name="num4" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9tJOukHqEeet_tFHI56wJg" memberEnd="_9tJOskHqEeet_tFHI56wJg _9tJOu0HqEeet_tFHI56wJg">
+    <ownedEnd xmi:id="_9tJOu0HqEeet_tFHI56wJg" visibility="public" type="_9tJOsUHqEeet_tFHI56wJg" association="_9tJOukHqEeet_tFHI56wJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9tJOvEHqEeet_tFHI56wJg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9tJOvUHqEeet_tFHI56wJg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9tJOvkHqEeet_tFHI56wJg" memberEnd="_9tJOtUHqEeet_tFHI56wJg _9tJOv0HqEeet_tFHI56wJg">
+    <ownedEnd xmi:id="_9tJOv0HqEeet_tFHI56wJg" visibility="public" type="_9tJOsUHqEeet_tFHI56wJg" association="_9tJOvkHqEeet_tFHI56wJg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9tJOwEHqEeet_tFHI56wJg" name="Menu">
+    <ownedAttribute xmi:id="_9tJOwUHqEeet_tFHI56wJg" name="opción" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOwkHqEeet_tFHI56wJg" name="void intro()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_9tJOw0HqEeet_tFHI56wJg" name="void operacion(Cuenta c1, Cuenta c2, Cuenta c3,ArrayList &lt;Cuenta> Banco)" isAbstract="true"/>
+  </packagedElement>
+</uml:Model>
