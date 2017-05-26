@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Hm8I0EHsEeet_tFHI56wJg" name="90">
+  <eAnnotations xmi:id="_Hm8I0UHsEeet_tFHI56wJg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Hm8I0kHsEeet_tFHI56wJg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Hm8v4EHsEeet_tFHI56wJg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Hm8v4UHsEeet_tFHI56wJg" name="libro">
+    <ownedAttribute xmi:id="_Hm8v4kHsEeet_tFHI56wJg" name="titulo" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Hm8v40HsEeet_tFHI56wJg" name="ISBN" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Hm8v5EHsEeet_tFHI56wJg" name="Editorial" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Hm8v5UHsEeet_tFHI56wJg" name="ejemplares" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Hm8v5kHsEeet_tFHI56wJg" name="autor" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v50HsEeet_tFHI56wJg" name="void libro(String titulo, String ISBN, String Editorial, String autor)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v6EHsEeet_tFHI56wJg" name="void prestamo()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v6UHsEeet_tFHI56wJg" name="void devolucion()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v6kHsEeet_tFHI56wJg" name="void settitulo(String titulo)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v60HsEeet_tFHI56wJg" name="void setISBN(String ISBN)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v7EHsEeet_tFHI56wJg" name="void setEditorial(String Editorial)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v7UHsEeet_tFHI56wJg" name="void setautor(String autor)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v7kHsEeet_tFHI56wJg" name="void setejemplares(int ejemplares)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v70HsEeet_tFHI56wJg" name="String gettitulo()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v8EHsEeet_tFHI56wJg" name="String getISBN()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v8UHsEeet_tFHI56wJg" name="String getEditorial()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v8kHsEeet_tFHI56wJg" name="String getautor()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v80HsEeet_tFHI56wJg" name="int getejemplares()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v9EHsEeet_tFHI56wJg" name="void alta()" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v9UHsEeet_tFHI56wJg" name="void baja()" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Hm8v9kHsEeet_tFHI56wJg" name="Principal">
+    <ownedAttribute xmi:id="_Hm8v90HsEeet_tFHI56wJg" name="libro" visibility="public" type="_Hm8v4UHsEeet_tFHI56wJg" association="_Hm8v-0HsEeet_tFHI56wJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hm8v-EHsEeet_tFHI56wJg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Hm8v-UHsEeet_tFHI56wJg" name="menu" visibility="public" type="_Hm8wAEHsEeet_tFHI56wJg" association="_Hm8v_kHsEeet_tFHI56wJg"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8v-kHsEeet_tFHI56wJg" name="Static void main(String[ ] args)" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hm8v-0HsEeet_tFHI56wJg" memberEnd="_Hm8v90HsEeet_tFHI56wJg _Hm8v_EHsEeet_tFHI56wJg">
+    <ownedEnd xmi:id="_Hm8v_EHsEeet_tFHI56wJg" visibility="public" type="_Hm8v9kHsEeet_tFHI56wJg" association="_Hm8v-0HsEeet_tFHI56wJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hm8v_UHsEeet_tFHI56wJg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hm8v_kHsEeet_tFHI56wJg" memberEnd="_Hm8v-UHsEeet_tFHI56wJg _Hm8v_0HsEeet_tFHI56wJg">
+    <ownedEnd xmi:id="_Hm8v_0HsEeet_tFHI56wJg" visibility="public" type="_Hm8v9kHsEeet_tFHI56wJg" association="_Hm8v_kHsEeet_tFHI56wJg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Hm8wAEHsEeet_tFHI56wJg" name="Menu">
+    <ownedAttribute xmi:id="_Hm8wAUHsEeet_tFHI56wJg" name="libro" visibility="public" type="_Hm8v4UHsEeet_tFHI56wJg" association="_Hm8wBkHsEeet_tFHI56wJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hm8wAkHsEeet_tFHI56wJg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Hm8wA0HsEeet_tFHI56wJg" name="opción" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8wBEHsEeet_tFHI56wJg" name="void intro(ArrayList &lt;libro> libreria)" isAbstract="true"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hm8wBUHsEeet_tFHI56wJg" name="void operacion(ArrayList &lt;libro> libreria)" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hm8wBkHsEeet_tFHI56wJg" memberEnd="_Hm8wAUHsEeet_tFHI56wJg _Hm8wB0HsEeet_tFHI56wJg">
+    <ownedEnd xmi:id="_Hm8wB0HsEeet_tFHI56wJg" visibility="public" type="_Hm8wAEHsEeet_tFHI56wJg" association="_Hm8wBkHsEeet_tFHI56wJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hm8wCEHsEeet_tFHI56wJg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
